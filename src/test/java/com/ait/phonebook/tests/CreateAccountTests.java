@@ -16,25 +16,7 @@ public class CreateAccountTests extends TestBase {
             app.getUser().clickOnSignOutButton();
         }
     }
-    @Test(dataProvider = "addNewContact")
-    public void addContactPositiveFromDataProviderTest(String name, String lastname, String phone,
-                                                       String email, String adress, String desc){
-        app.getContact().clickOnAddLink();
 
-        app.getContact().fillContactForm(new Contact()
-                .setName(name)
-                .setLastname(lastname)
-                .setPhone(phone)
-                .setEmail(email)
-                .setAdress(adress)
-                .setDescription(desc));
-
-
-
-        app.getContact().clickOnSaveButton();
-
-        //  Assert.assertTrue(app.getContact().isContactDisplayedByText("Yurii"));
-    }
     @Test
     public void existeUserRegistrationNegativeTest() {
 
