@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ait.phonebook.tests.LoginTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-11-29T10:04:22" hostname="DESKTOP-OS617JJ" time="2.417">
+  <properties/>
+  <testcase name="loginRegisteredUserNegativeWithoutEmailTest" classname="com.ait.phonebook.tests.LoginTests" time="1.459"/>
+  <testcase name="loginRegisteredUserPositiveTest" classname="com.ait.phonebook.tests.LoginTests" time="0.925"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
